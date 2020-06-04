@@ -35,7 +35,6 @@ trading_md(
 \item \strong{EV} - Trading Effective Volume
 \item \strong{NV} - Nominal Volume
 \item \strong{TC} - Trade Count
-
 }}
 
 \item{depth}{Integer. Depth of the book. Default is \strong{1L}.}
@@ -51,6 +50,7 @@ trading_md(
 If correct, it will load a tibble data frame
 }
 \description{
+\Sexpr[results=rd, stage=render]{lifecycle::badge("stable")}
 This method brings Market Data in Real Time.
 }
 \examples{
